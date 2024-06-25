@@ -2,13 +2,13 @@ import React from 'react'
 
 function Blog({content}) {
   return (
-    <div>
+    <article>
         <h5>{content.date}</h5>
         <h3>{content.title}</h3>
-        <img src={content.image} alt='' />
+        <img src={content.image} alt={content.alt} />
         <p>{content.blogContent}</p>
-        <hr />
-    </div>
+        {/* <hr /> */}
+    </article>
   )
 }
 

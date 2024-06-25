@@ -1,0 +1,46 @@
+html {
+    border-left: solid 5px lightgray;
+    height: 100%;
+}
+
+body {
+    
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+nav footer main {
+    margin: 1rem 2rem;
+    
+}
+h1 {
+    color: tomato;
+}
+img{
+    width: 100%;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    font: lightgray;
+}
+footer li {
+    font: tomato;
+}
+article {
+    margin-bottom: 4rem;
+    border-bottom: solid lightgray 1px;
+    padding-bottom: 2rem;
+}
+article p::first-letter {
+    font-size: 3rem;
+    color: lightgray;
+}
+#copyright {
+    color: lightgray;
+}
